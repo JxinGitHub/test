@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <display-name>Sample Application</display-name>
+    <description>This is a sample application</description>
+    <!-- 在此设定的参数，可以在servlet中用 getServletContext().getInitParameter("my_param") 来取得 -->
+    <context-param>	<!-- 用来设定web站台的环境参数 -->
+        <param-name>my_param</param-name>
+        <param-value>hello</param-value>
+    </context-param>
+
+</web-app>
